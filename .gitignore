@@ -9,4 +9,19 @@ __pycache__
 /dependencies
 data/
 
-.idea
+# Terraform files and directories:
+# Ignore local Terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files created by Terraform in the event of a failure
+crash.log
+
+# Ignore Terraform override files which are usually local modifications
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
